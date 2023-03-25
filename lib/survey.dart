@@ -22,7 +22,7 @@ class SurveyWidget extends StatelessWidget {
 
     for (String text in surveyList[index].cast()['answers']) {
       widgetList
-          .add(AnswerWidget(displayText: text, whenSelected: () => index));
+          .add(AnswerWidget(displayText: text, whenSelected: nextAnswer));
     }
 
     return widgetList;

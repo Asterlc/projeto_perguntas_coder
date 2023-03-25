@@ -48,6 +48,7 @@ class _AppPerguntasState extends State<AppPerguntas> {
       setState(() {
         _counter++;
       });
+      print("STATUS:>> " + _counter.toString());
     }
   }
 
